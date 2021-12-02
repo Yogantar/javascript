@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Embedded in HTML</title>
+</head>
+<body>
+    <!-- HTML h1 Tag -->
+    <h1>JavaScript Introduction</h1>
+    <script lang="javascript">
+        document.writeln("Hello World from JavaScript");
+
+        // Javascript code to add two no.
+        var a,b,sum;
+
+        name=prompt("Enter your Name: ");  //Prompt - used to take input at runtime
+        a = parseInt(prompt("Enter first Number:","Enter a number"));
+        console.log(a);
+
+        b = parseInt(prompt("ENter second Number:","Enter a number"));
+        console.log(b);
+
+        sum=a+b;
+        console.log(sum);
+        console.log(name);
+        document.writeln("<br>"+"Hello "+name+"<br>");
+        document.writeln("The Addition of 2 numbers is: "+sum);
+
+        alert("The sum is: "+sum);
+        alert("Thank You "+name);
+        alert(100+200);
+    </script>
+</body>
+</html>
